@@ -1,0 +1,12 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.grid-item{
+    background-color: blueviolet;
+    padding: 20px;
+}
+.grid-item:hover{
+    background-color: chartreuse;
+}
