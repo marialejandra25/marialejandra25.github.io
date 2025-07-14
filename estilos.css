@@ -1,31 +1,29 @@
-body{
-    background-image: url('fondo.jpg'); 
-            background-size: cover; 
-            background-position: center;
-            height: 100vh; color: white;
+body {
+   background-image: url('colibri.png'); 
+    background-size: cover; 
+    background-position: center;
+    height: 100vh; 
+    color: white;
 }
-h1{color: #e23434;
+h2 {
+  color: rgb(141, 48, 48);
 }
-.secundaria{color: #b63e9c;
+h5 .parrafo {
+  font-family: sans-serif;
 }
-/*comentarios*/
-
-#parrafo1{
-    color: #cddcdf;
-font-size: 40px;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.parrafo2{
-    font-size: 25px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.contenedor {
+  width: 100%;
+  height: auto;
+  margin: 20px;
+  padding: 30px;
+  border: 3px darkorange;
 }
 
-.contenedor{
-    width: 800px;
-    height: auto;
-    margin: 70px;
-    padding: 30px;
-    border: 3px dotted red;
-   
+@keyframes girar {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(180deg); }
+    100% { transform: rotate(360deg); }
+}
+div {
+    animation: girar 23s infinite linear;
 }
